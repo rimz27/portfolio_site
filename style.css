@@ -82,6 +82,12 @@ h2 {
     border-left: 4px solid #14b8a6;
     background-color: #f1f5f9;
     border-radius: 6px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 /* Links */
