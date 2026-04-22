@@ -1,1 +1,55 @@
 /* Global Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background-color: #f8fafc;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #0f172a;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+header p {
+    margin-top: 10px;
+    color: #94a3b8;
+    font-weight: 300;
+}
+
+/* Sections */
+section {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings */
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #0f172a;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 8px;
+}
+
+/* Projects */
+.project {
+    margin-top: 20px;
+    padding: 15px;
+    border-left: 4px solid #14b8a6;
+    background-color: #f1f5f9;
+    border-radius: 6px;
+}
