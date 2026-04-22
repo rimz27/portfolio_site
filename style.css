@@ -7,6 +7,36 @@ body {
     line-height: 1.6;
 }
 
+/* Navigation Bar */
+nav {
+    background-color: #0f172a;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #14b8a6;
+}
+
 /* Header */
 header {
     background-color: #0f172a;
